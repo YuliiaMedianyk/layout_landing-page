@@ -1,3 +1,42 @@
-body {
+
+ body {
   margin: 0;
+ }
+
+ .header {
+  box-sizing: border-box;
+ padding: 24px 20px 40px;
+ background-image: url(./images/header-bg-mobile.png);
+ background-size: cover;
+ background-position: center;
+ height: 100vh
+ }
+
+ .header__top {
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .header__icons {
+  display: flex;
+  gap: 24px;
+
+}
+
+ .icon {
+ display: block;
+ height: 24px;
+ width: 24px;
+ }
+
+ .icon--phone {
+ background-image: url(images/icon-Phone-call.png);
+ }
+
+.icon--menu {
+ background-image: url(images/icon-Burger-menu.png);
+}
+
+.footer {
+
 }
