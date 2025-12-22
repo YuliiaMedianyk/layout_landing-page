@@ -4,46 +4,97 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The MET Landing</title>
+
+    <script type="module" src="/src/scripts/main.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
-  <body>
-    <header class="header">
-      <div class="header__top">
-        <a href="#">
-          <img src="./src/images/logo.png" alt="The Met logo" />
-        </a>
+  <body class="page__body">
+    <div class="page">
 
-        <div class="header__icons">
-          <a href="#" class="icon icon--phone"></a>
-          <a href="#" class="icon icon--menu"></a>
+      <header class="header">
+        <div class="top-bar">
+          <a href="#" class="top-bar__logo">
+            <img src="./src/images/logo.png" alt="The Met logo" />
+          </a>
+
+          <div class="top-bar__icons">
+            <a href="#" class="icon icon--phone"></a>
+            <a href="#menu" class="icon icon--menu"></a>
+          </div>
         </div>
-      </div>
 
-      <div class="header__bottom">
-        <h1 class="header__title">Welcome to The MET</h1>
-      </div>
-    </header>
+        <div class="header__bottom">
+          <h1 class="header__title">
+            Welcome
+            <br />
+            to The MET
+          </h1>
+        </div>
+      </header>
 
-    <aside class="menu"></aside>
+      <aside class="menu page__menu" id="menu">
+        <div class="top-bar menu__top">
+          <a href="#" class="top-bar__logo"></a>
+          <img src="./src/images/logo.png" alt="The Met logo" />
+          <a href="#" class="icon icon--close"></a>
+        </div>
 
-    <main class="main">
-      <section class="about-us">
-        <h2>About Us</h2>
-      </section>
+        <div class="menu__content">
+          <nav class="nav menu__nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="#">Home</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="about-us">About Us</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="now-on-view">Now On View</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="explore-online">More To Explore Online</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="contacts">Contacts</a>
+              </li>
+              <a href="tel:+1 212-535-7710" class="menu__phone__number">
+                +1 212-535-7710
+              </a>
+              <a href="tel:+1 212-535-7710" class="menu__call-to-order">
+                Call to order
+              </a>
+            </ul>
+          </nav>
+        </div>
+      </aside>
 
-      <section class="now-on-view">
-        <h2>Now On View</h2>
-      </section>
+      <main class="main">
+        <section class="about-us">
+          <h2>About Us</h2>
+        </section>
 
-      <section class="explore-online">
-        <h2>More To Explore Online</h2>
-      </section>
+        <section class="now-on-view">
+          <h2>Now On View</h2>
+        </section>
 
-      <section class="contacts">
-        <h2>Contacts</h2>
-      </section>
-    </main>
+        <section class="explore-online">
+          <h2>More To Explore Online</h2>
+        </section>
 
-    <footer class="footer"></footer>
+        <section class="contacts">
+          <h2>Contacts</h2>
+        </section>
+      </main>
+
+      <footer class="footer"></footer>
+    </div>
   </body>
 </html>
+
