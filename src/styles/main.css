@@ -1,12 +1,13 @@
+/* stylelint-disable order/properties-order */
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: "Cinzel", serif;
+  font-family: Cinzel, serif;
   font-size: 16px;
   line-height: 140%;
-  color: #ffffff;
+  color: white;
 }
 
 body {
@@ -21,7 +22,7 @@ body {
 
 .header {
   height: 100vh;
-  background-image: url("../images/header-bg-mobile.png");
+  background-image: url('../images/header-bg-mobile.png');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -45,7 +46,7 @@ body {
   font-size: 40px;
   line-height: 100%;
   letter-spacing: -1.5px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .icon {
@@ -58,15 +59,15 @@ body {
 }
 
 .icon--phone {
-  background-image: url("../images/icon-Phone-call.png");
+  background-image: url('../images/icon-Phone-call.png');
 }
 
 .icon--menu {
-  background-image: url("../images/icon-Burger-menu.png");
+  background-image: url('../images/icon-Burger-menu.png');
 }
 
 .icon--close {
-  background-image: url("../images/icon-Close.png");
+  background-image: url('../images/icon-Close.png');
 }
 
 .top-bar {
@@ -131,7 +132,7 @@ body {
   letter-spacing: 2px;
   padding-bottom: 7px;
   text-decoration: none;
-  border-bottom: 1px #ffffff;
+  border-bottom: 1px #fff;
   display: block;
 }
 
@@ -168,4 +169,3 @@ h2 {
 .footer {
   height: 80px;
 }
-
